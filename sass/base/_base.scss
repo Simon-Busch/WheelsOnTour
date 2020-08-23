@@ -1,0 +1,22 @@
+*,
+*::after,
+*::after {
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: $default-font-size;
+    font-weight: 400;
+    line-height: 1.7;
+    background-color: white;
+    width:100%;
+}
